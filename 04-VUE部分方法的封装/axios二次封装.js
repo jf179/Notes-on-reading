@@ -1,9 +1,9 @@
-参数的数据格式分两种
-1.json对象类型  {name:1,password:1356565}
-2.字符串类型    name:1,password:1356598   (需要下载qs插件进行转换)
+//参数的数据格式分两种
+//1.json对象类型  {name:1,password:1356565}
+//2.字符串类型    name:1,password:1356598   (需要下载qs插件进行转换)
 
 import axios from 'axios'
-import Qs from 'qs'（如果只是get请求就不需要引qs）
+import Qs from 'qs' //（如果只是get请求就不需要引qs）
 import { Message } from 'element-ui'  //引入element中的弹窗，这个不是必须的可根据项目来
  
 axios.defaults.withCredentials = false;  //false  不跨域  true 跨域
